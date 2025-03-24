@@ -12,6 +12,7 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
 }
 
 h1 {
@@ -44,8 +45,15 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
+  margin: 5px;
 }
 
 button:hover {
   background-color: #0056b3;
+}
+
+.result-container {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
 }
